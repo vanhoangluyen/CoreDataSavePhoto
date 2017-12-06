@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         let imageEntity = try? AppDelegate.context.fetch(ImageEntity.fetchRequest()) as! [ImageEntity]
-        photoImageView.image = imageEntity?.first?.photo
+        photoImageView.image = imageEntity?.first?.photo as? UIImage
         // Do any additional setup after loading the view.
     }
     
