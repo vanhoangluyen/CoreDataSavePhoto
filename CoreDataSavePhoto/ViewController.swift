@@ -50,7 +50,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         entity.photo = photoImageView.image
         entity.name = nameImageTextField.text
         AppDelegate.saveContext()
-        DataService.shared.arrayData.append(entity)
+        DataService.shared.removeData()
         navigationController?.popToRootViewController(animated: true)
     }
     

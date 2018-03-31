@@ -33,4 +33,7 @@ class DataService {
             fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
         }
     }
+    func removeData() {
+        _arrayData = nil
+    }
 }
