@@ -12,7 +12,7 @@ import CoreData
 class DataService {
     
     static let shared : DataService = DataService()
-    var _arrayData:[Entity]?
+    private var _arrayData:[Entity]?
     var arrayData: [Entity] {
         get {
             if _arrayData == nil {
