@@ -13,6 +13,8 @@
 		563316021FD4E653004B35C7 /* CoreDataSavePhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 563316001FD4E653004B35C7 /* CoreDataSavePhoto.xcdatamodeld */; };
 		563316041FD4E653004B35C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563316031FD4E653004B35C7 /* Assets.xcassets */; };
 		563316071FD4E653004B35C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563316051FD4E653004B35C7 /* LaunchScreen.storyboard */; };
+		5681D794206F6D0D00B8DB5A /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681D793206F6D0D00B8DB5A /* DetailTableViewController.swift */; };
+		5681D796206F6D1700B8DB5A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681D795206F6D1700B8DB5A /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		563316031FD4E653004B35C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		563316061FD4E653004B35C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563316081FD4E653004B35C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5681D793206F6D0D00B8DB5A /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		5681D795206F6D1700B8DB5A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				563315F91FD4E653004B35C7 /* AppDelegate.swift */,
 				560B36DC1FD5390C00A848DF /* ViewController.swift */,
+				5681D793206F6D0D00B8DB5A /* DetailTableViewController.swift */,
+				5681D795206F6D1700B8DB5A /* DataService.swift */,
 				563315FD1FD4E653004B35C7 /* Main.storyboard */,
 				563316031FD4E653004B35C7 /* Assets.xcassets */,
 				563316051FD4E653004B35C7 /* LaunchScreen.storyboard */,
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5681D794206F6D0D00B8DB5A /* DetailTableViewController.swift in Sources */,
 				560B36DD1FD5390C00A848DF /* ViewController.swift in Sources */,
 				563316021FD4E653004B35C7 /* CoreDataSavePhoto.xcdatamodeld in Sources */,
 				563315FA1FD4E653004B35C7 /* AppDelegate.swift in Sources */,
+				5681D796206F6D1700B8DB5A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
